@@ -1,0 +1,27 @@
+[project]
+
+name = "farmsim-vg-livemap"
+version = "1.0.0"
+description = "Livemap for farmsim.party"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE.txt"}
+keywords = ["farmsim", "kandru"]
+authors = [
+  {name = "Kalle Minkner", email = "info@kalleminkner.de" }
+]
+maintainers = [
+  {name = "Kalle Minkner", email = "info@kalleminkner.de" }
+]
+dependencies = [
+  "djlint"
+]
+
+[project.urls]
+
+"Homepage" = "https://kandru.net"
+"Source" = "https://github.com/Kandru/farmsim-vg-livemap-gui"
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
