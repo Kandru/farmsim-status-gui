@@ -1,93 +1,52 @@
-# CounterstrikeSharp - Cheater Troll
+# Farming Simulator 25 - Status GUI
 
-[![UpdateManager Compatible](https://img.shields.io/badge/CS2-UpdateManager-darkgreen)](https://github.com/Kandru/cs2-update-manager/)
-[![Discord Support](https://img.shields.io/discord/289448144335536138?label=Discord%20Support&color=darkgreen)](https://discord.gg/bkuF8xKHUt)
-[![GitHub release](https://img.shields.io/github/release/Kandru/cs2-cheater-troll?include_prereleases=&sort=semver&color=blue)](https://github.com/Kandru/cs2-cheater-troll/releases/)
+[![GitHub release](https://img.shields.io/github/release/Kandru/farmsim-status-gui?include_prereleases=&sort=semver&color=blue)](https://github.com/Kandru/farmsim-status-gui/releases/)
 [![License](https://img.shields.io/badge/License-GPLv3-blue)](#license)
-[![issues - cs2-cheater-troll](https://img.shields.io/github/issues/Kandru/cs2-cheater-troll?color=darkgreen)](https://github.com/Kandru/cs2-cheater-troll/issues)
+[![issues - farmsim-status-gui](https://img.shields.io/github/issues/Kandru/farmsim-status-gui?color=darkgreen)](https://github.com/Kandru/farmsim-status-gui/issues)
 [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=C2AVYKGVP9TRG)
 
-This plugin will make the life for cheaters harder by applying some server-side features to their ingame experience they will not like. Why? Because I had a lot of fun doing this back in the days on my Counter-Strike:Source Server. Whenever I found someone to be cheating (e.g. by seeing through walls, only headshots, spin-bots, etc) I activated one or more random stuff on their side. They simply gave up on their own and I banned them afterwards. But this was much more enjoyable for everyone on the server (except the cheater).
+This plugin gives a almost complete overview about your Farming Simulator 25 server from your webbrowser. It contains two parts: a LUA plugin and a Python script. The LUA plugin gathers data every minute and writes it to a XML file. The Python script reads this file and creates a website which is updated regularly.
 
-## Current Features against cheater
+## Current Features
 
 - None yet
 
 ## Road Map
 
-- Make players invisible for the cheater (either all or randomly)
-- Make cheater glow for everyone else
-- Jam cheater weapons
-- Give cheater "butter fingers" (they drop weapons from time to time)
-- Disable headshots for cheater
-- Reduce damage to 1hp for cheater
-- Make grenade damage significantly lower for cheater
-- Invert movement for cheater
-- Random mode which cycles between one or multiple of the features
-- Announcement for every other player that a specific player is a cheater and what is used against him currently
-- Slower movement for cheater
-- Shake screen of cheater
-- Blind cheater at random times
+- Show Ingame Map
+ - fields
+ - players
+ - point of interests
+ - filtering
+- Current players
+- Current farms
+- Reduce polling rate when nobody is online
 
 ## Plugin Installation
 
-1. Download and extract the latest release from the [GitHub releases page](https://github.com/Kandru/cs2-cheater-troll/releases/).
-2. Move the "CheaterTroll" folder to the `/addons/counterstrikesharp/configs/plugins/` directory of your gameserver.
-3. Restart the server.
+1. Download and extract the latest release from the [GitHub releases page](https://github.com/Kandru/farmsim-status-gui/releases/)
+2. Move the folder to some local path on your gameserver host (needs to have access to the status xml file from our status plugin)
+3. Rename config.example.yaml to config.yaml
+4. Coming soon
 
 ## Plugin Update
 
-Simply overwrite all plugin files and they will be reloaded automatically or just use the [Update Manager](https://github.com/Kandru/cs2-update-manager/) itself for an easy automatic or manual update by using the *um update CheaterTroll* command.
-
-## Commands
-
-There is currently no client-side command.
+Simply overwrite all plugin files with the latest release. You may have to adjust the config.yaml with the settings found in config.example.yaml.
 
 ## Configuration
 
-This plugin automatically creates a readable JSON configuration file. This configuration file can be found in `/addons/counterstrikesharp/configs/plugins/CheaterTroll/CheaterTroll.json`.
+This plugin provides a configuration called `config.yaml`.
 
-```json
-{
-  "enabled": true,
-  "debug": false,
-  "ConfigVersion": 1
-}
+```yaml
+path_xml: ./
+path_website: ./public/
 ```
 
-You can either disable the complete CheaterTroll Plugin by simply setting the *enable* boolean to *false* or specify a specific map where you want this plugin to be disabled. This allows for a maximum customizability.
+### path_xml
+Path to the XML file of the LUA plugin of the gameserver.
 
-## Compile Yourself
-
-Clone the project:
-
-```bash
-git clone https://github.com/Kandru/cs2-cheater-troll.git
-```
-
-Go to the project directory
-
-```bash
-  cd cs2-cheater-troll
-```
-
-Install dependencies
-
-```bash
-  dotnet restore
-```
-
-Build debug files (to use on a development game server)
-
-```bash
-  dotnet build
-```
-
-Build release files (to use on a production game server)
-
-```bash
-  dotnet publish
-```
+### path_website
+Path where the website files should be created. Should be in the root directory of a website. Best case it is a subdomain like status.farmsim.party.
 
 ## License
 
