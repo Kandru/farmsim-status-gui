@@ -172,4 +172,7 @@ cython_debug/
 
 config.yaml
 public/
-www/livemap.json
+www/server.json
+www/farms.json
+www/farmlands.json
+FS25_FarmsimStatusDynamic.xml
