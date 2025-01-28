@@ -20,7 +20,7 @@ dependencies = [
 [project.urls]
 
 "Homepage" = "https://kandru.net"
-"Source" = "https://github.com/Kandru/farmsim-vg-livemap-gui"
+"Source" = "https://github.com/kandru/farmsim-status-gui"
 
 [build-system]
 requires = ["setuptools>=43.0.0", "wheel"]
