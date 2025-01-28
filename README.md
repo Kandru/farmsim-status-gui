@@ -55,3 +55,7 @@ Released under [GPLv3](/LICENSE) by [@Kandru](https://github.com/Kandru).
 ## Authors
 
 - [@derkalle4](https://www.github.com/derkalle4)
+
+## Attributions
+
+- [FrechDachs93](https://www.farming-simulator.com/mod.php?mod_id=311199&title=fs2025) - allowed the use of the FrechDachs Map 4x image. Many thanks!
