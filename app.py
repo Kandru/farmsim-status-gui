@@ -46,7 +46,7 @@ def sync_directories(src, dest):
 			shutil.copy2(src_path, dest_path)
 
 # Sync the directories
-if config['path_website'] != "./www/": sync_directories('./www', config['path_website'])
+if not str(config['path_website']).startswith("./www/"): sync_directories('./www', config['path_website'])
 
 ## create server json
 server_data = {

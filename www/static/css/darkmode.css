@@ -1,0 +1,12 @@
+body {
+	background-color: #313131;
+	color: #fff;
+}
+
+nav {
+	background-color: #292929;
+}
+
+nav .burger~.menu {
+	background-color: #292929;
+}
