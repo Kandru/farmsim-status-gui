@@ -67,7 +67,7 @@ for entry in xml_dynamic.findall('mission'):
 		server_data['mission'][attr] = entry.get(attr)
 #save server.json
 with open(f"{config['path_website']}/server.json", 'w') as json_file:
-	json.dump(server_data, json_file, indent=4, sort_keys=True)
+	json.dump(server_data, json_file, indent=4)
 
 ## create farms json
 farms_data = {}
@@ -94,7 +94,7 @@ for farms in xml_dynamic.findall('farms'):
 			farms_data[element['farmId']] = element
 #save farms.json
 with open(f"{config['path_website']}/farms.json", 'w') as json_file:
-	json.dump(farms_data, json_file, indent=4, sort_keys=True)
+	json.dump(farms_data, json_file, indent=4)
 
 ## create farmlands json
 farmlands_data = {}
@@ -121,4 +121,4 @@ for farmlands in xml_dynamic.findall('farmlands'):
 			farmlands_data[element['id']] = element
 # save farmlands.json
 with open(f"{config['path_website']}/farmlands.json", 'w') as json_file:
-	json.dump(farmlands_data, json_file, indent=4, sort_keys=True)
+	json.dump(farmlands_data, json_file, indent=4)
