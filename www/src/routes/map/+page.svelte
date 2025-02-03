@@ -76,4 +76,13 @@
     });
 </script>
 
-<div id="map"></div>
+<div class="flex two">
+    <div class="sixth">
+        <div class="filter-menu">
+            <h2 class="text-center">Filter</h2>
+            <a class="pseudo button full-width" href="#buttons">Buttons</a>
+            <!-- Add more filter options here -->
+        </div>
+    </div>
+    <div><div id="map"></div></div>
+</div>
