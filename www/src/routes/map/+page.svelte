@@ -34,7 +34,7 @@
                 [[-(serverData.map.size / 2), -(serverData.map.size / 2)], [(serverData.map.size / 2), (serverData.map.size / 2)]]
             ).addTo(map);
 
-            let farmlands = Object.values(farmlandsData)
+            let farmlands: GeoJSON.Feature[] = Object.values(farmlandsData)
                 .filter((entry: any) => entry.polygons !== null && entry.polygons !== undefined)
                 .map((entry: any) => ({
                     type: 'Feature',
