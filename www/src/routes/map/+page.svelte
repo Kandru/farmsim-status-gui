@@ -1,16 +1,27 @@
 <script lang="ts">
+	// imports
 	import { onMount } from 'svelte';
 	import 'leaflet/dist/leaflet.css';
-
+	// variables
+	let map: any;
+	let mapLayerControl: any;
+	let serverData: any;
+	let farmlandsData: any;
+	// generate colors for fields
 	function generateColor(index: number) {
 		const hue = (index * 137.508) % 360; // Use golden angle approximation
 		return `hsl(${hue}, 100%, 50%)`;
 	}
-
-	let map: any;
-	let serverData: any;
-	let farmlandsData: any;
-
+	// filter fields
+	let filterFieldsActive = true;
+	function filterFields() {
+		if (map) {
+			filterFieldsActive = !filterFieldsActive;
+			// Example: Change the map view to a different location
+			map.setView([100, 100], 0);
+		}
+	}
+	// create map after mount
 	onMount(async () => {
 		const L = await import('leaflet');
 		let farmsColors: { [key: number]: string } = {};
@@ -35,10 +46,13 @@
 				]
 			}).setView([0, 0], -2);
 
-			L.imageOverlay('/images/maps/' + serverData.map.name.replace(/ /g, '_') + '.jpg', [
-				[-(serverData.map.size / 2), -(serverData.map.size / 2)],
-				[serverData.map.size / 2, serverData.map.size / 2]
-			]).addTo(map);
+			let mapImage = L.imageOverlay(
+				'/images/maps/' + serverData.map.name.replace(/ /g, '_') + '.jpg',
+				[
+					[-(serverData.map.size / 2), -(serverData.map.size / 2)],
+					[serverData.map.size / 2, serverData.map.size / 2]
+				]
+			).addTo(map);
 
 			let farmlands: GeoJSON.Feature[] = Object.values(farmlandsData)
 				.filter((entry: any) => entry.polygons !== null && entry.polygons !== undefined)
@@ -66,13 +80,13 @@
 			});
 			farmsColors[0] = '#808080';
 
-			let geoJSON = L.geoJSON(farmlands, {
+			let overlayFarmlands = L.geoJSON(farmlands, {
 				style: function (farmland: any) {
 					return { color: farmsColors[farmland.properties.owner] };
 				}
 			}).addTo(map);
 
-			geoJSON.eachLayer(function (layer: any) {
+			overlayFarmlands.eachLayer(function (layer: any) {
 				layer.bindTooltip(layer.feature.properties.popup);
 				const center = layer.getBounds().getCenter();
 				L.marker(center, {
@@ -81,25 +95,33 @@
 						html: layer.feature.properties.id,
 						iconSize: [10, 10]
 					})
-				}).addTo(map);
+				}).addTo(overlayFarmlands);
 			});
+			// create layer control
+			mapLayerControl = L.control
+				.layers(
+					{
+						'Map Image': mapImage
+					},
+					{ Farmlands: overlayFarmlands },
+					{
+						hideSingleBase: true,
+						collapsed: false
+					}
+				)
+				.addTo(map);
 		}
 	});
 </script>
 
-<div class="row vhc-100 ms-0">
-	<div class="col col-2 bg-body-tertiary border-end">
-		<div class="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary text-bg-dark">
-			<span class="fs-3">Filter</span>
-			<hr />
-			<ul class="nav nav-pills flex-column mb-auto">
-				<li class="nav-item">
-					<a href="/map" class="nav-link active" aria-current="page"> Fields </a>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-10 ps-0">
+<div class="row vhc-100">
+	<div class="col-9 ps-0 pe-0 border-end">
 		<div id="map" class="bg-body-tertiary w-100 h-100"></div>
+	</div>
+	<div class="col-3 bg-body-tertiary">
+		<div class="d-flex flex-column flex-shrink-0 p-2 bg-body-tertiary text-bg-dark">
+			<span class="fs-3">Details</span>
+			<hr />
+		</div>
 	</div>
 </div>
