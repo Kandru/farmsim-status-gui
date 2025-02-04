@@ -11,19 +11,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
 	</head>
-	<body data-sveltekit-preload-data="hover">
-        <nav>
-            <a href="/" class="brand"><span>Status</span></a>
-            <input id="bmenu" type="checkbox" class="show">
-            <label for="bmenu" class="burger toggle pseudo button">menu</label>
-            <div class="menu">
-                <a href="/" class="pseudo button">Overview</a>
-				<a href="/map" class="pseudo button">Map</a>
-                <a href="https://farmsim.party" target="_blank" class="button">FarmSim</a>
-            </div>
-        </nav>
-        <main>
+	<body data-sveltekit-preload-data="hover" data-bs-theme="dark">
+        <div class="container">
+            <header class="d-flex justify-content-center py-3">
+                <ul class="nav nav-pills">
+                <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="/map" class="nav-link">Map</a></li>
+                </ul>
+            </header>
             %sveltekit.body%
-        </main>
+        </div>
 	</body>
 </html>

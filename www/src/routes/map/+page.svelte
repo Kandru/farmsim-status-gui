@@ -76,13 +76,21 @@
     });
 </script>
 
-<div class="flex two">
-    <div class="sixth">
-        <div class="filter-menu">
-            <h2 class="text-center">Filter</h2>
-            <a class="pseudo button full-width" href="#buttons">Buttons</a>
-            <!-- Add more filter options here -->
-        </div>
+<div class="row">
+    <div class="col col-2">
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark">
+              <span class="fs-3">Filter</span>
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+              <li class="nav-item">
+                <a href="/map" class="nav-link active" aria-current="page">
+                    Fields
+                </a>
+              </li>
+            </ul>
+          </div>
     </div>
-    <div><div id="map"></div></div>
+    <div class="col">
+        <div id="map"></div>
+    </div>
 </div>

@@ -5,66 +5,8 @@ body {
     height: auto;
 }
 
-main {
-    margin-top: 50px;
-    width: 100%;
-    min-height: calc(100vh - 50px);
-}
-
-.filter-menu {
-    padding: 1rem;
-    background-color: #333;
-    color: #fff;
-    border-radius: 8px;
-}
-
-.filter-menu h2 {
-    color: #fff;
-}
-
-.filter-menu a {
-    color: #1e90ff;
-}
-
-.filter-menu a:hover {
-    color: #ff6347;
-}
-
-@media (max-width: 768px) {
-    .filter-menu {
-        width: 100%;
-        margin-bottom: 1rem;
-    }
-
-    .flex.two {
-        flex-direction: column;
-    }
-
-    #map {
-        height: 400px;
-    }
-}
-
-@media (min-width: 769px) {
-    .filter-menu {
-        width: 20%;
-    }
-
-    #map {
-        height: 600px;
-    }
-}
-
 #map {
     width: 100%;
     min-height: calc(100vh - 50px);
     background: transparent;
-}
-
-.map-marker-field-id {
-    color: #fff;
-}
-
-.text-center {
-    text-align: center;
 }
