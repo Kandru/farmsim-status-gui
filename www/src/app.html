@@ -1,25 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="%paraglide.lang%" dir="%paraglide.textDirection%">
-	<head>
-		<meta charset="utf-8" />
+    <head>
+        <meta charset="utf-8" />
         <title>FarmSim Status</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="farmsim,status,server,monitoring">
         <meta name="description" content="FarmSim server status monitoring">
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		%sveltekit.head%
-	</head>
-	<body data-sveltekit-preload-data="hover" data-bs-theme="dark">
-        <div class="container">
-            <header class="d-flex justify-content-center py-3">
-                <ul class="nav nav-pills">
-                <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="/map" class="nav-link">Map</a></li>
-                </ul>
-            </header>
-            %sveltekit.body%
-        </div>
-	</body>
+        <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+        %sveltekit.head%
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body data-sveltekit-preload-data="hover" data-bs-theme="dark">
+        <div class="container">%sveltekit.body%</div>
+    </body>
 </html>
