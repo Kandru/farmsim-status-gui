@@ -6,6 +6,7 @@
 	let map: any;
 	let mapLayerControl: any;
 	let serverData: any;
+	let farmsData: any;
 	let farmlandsData: any;
 	// generate colors for fields
 	function generateColor(index: number) {
@@ -25,8 +26,13 @@
 	onMount(async () => {
 		const L = await import('leaflet');
 		let farmsColors: { [key: number]: string } = {};
+		// get server data
 		let response = await fetch('/data/server.json');
 		serverData = await response.json();
+		// get farms data
+		response = await fetch('/data/farms.json');
+		farmsData = await response.json();
+		// get farmland data
 		response = await fetch('/data/farmlands.json');
 		farmlandsData = await response.json();
 

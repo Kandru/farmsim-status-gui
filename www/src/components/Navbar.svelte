@@ -3,7 +3,9 @@
 
 	const menus = [
 		{ name: 'Home', url: '/' },
-		{ name: 'Map', url: '/map' }
+		{ name: 'Map', url: '/map' },
+		{ name: 'Players', url: '/players' },
+		{ name: 'Farms', url: '/farms' }
 	];
 
 	$: currentPage = $page.url.pathname; //should be reactive
