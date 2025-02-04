@@ -10,7 +10,7 @@
 </script>
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
-	<div class="container-fluid">
+	<div class="container">
 		<a class="navbar-brand" href="/">FarmSim Status</a>
 		<button
 			class="navbar-toggler"

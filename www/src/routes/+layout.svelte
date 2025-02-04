@@ -8,5 +8,7 @@
 
 <ParaglideJS {i18n}>
 	<Navbar />
-	{@render children()}
+	<div class="container-fluid">
+		{@render children()}
+	</div>
 </ParaglideJS>
