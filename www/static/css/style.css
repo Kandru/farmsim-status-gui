@@ -14,4 +14,8 @@ body {
         max-height: 300px;
         overflow-y: auto;
     }
+    .scrollable-list-map-details {
+        height: calc(100vh - 220px);
+        overflow-y: auto;
+    }
 }

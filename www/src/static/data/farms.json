@@ -1,0 +1,2468 @@
+{
+    "1": {
+        "farmMoneyDirtyFlag": "1",
+        "recieveUpdates": "true",
+        "isClient": "true",
+        "lastMoneySent": "100000",
+        "nextDirtyFlag": "2",
+        "isServer": "true",
+        "ownerFarmId": "0",
+        "farmId": "6",
+        "lastMoneyPublished": "100000",
+        "color": "4",
+        "id": "843",
+        "loanMax": "1690000",
+        "showInFarmScreen": "true",
+        "loan": "40000",
+        "isSpectator": "false",
+        "name": "Hof ohne Name",
+        "dirtyMask": "0",
+        "money": "189195.937500",
+        "isRegistered": "true",
+        "players": {
+            "id_1": {
+                "isFarmManager": "true",
+                "uniqueUserId": "R2UTqJnQrQ+2CKnsKOcqEhTfsvgpNP3inc6LO5G1BBE=",
+                "lastNickname": "onewithoutname",
+                "timeLastConnected": "2025/01/06 17:32"
+            }
+        },
+        "statistics": {
+            "heroStatsLoaded": "false",
+            "updatePlayTime": "true",
+            "financesHistoryVersionCounterLocal": "0",
+            "nextHeroAccumUpdate": "0",
+            "financesVersionCounter": "0",
+            "moneyEarnedHeroAccum": "0",
+            "financesHistoryVersionCounter": "0",
+            "baleCount": {
+                "session": "0",
+                "total": "413"
+            },
+            "breedChickenCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedCowsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedGoatsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedHorsesCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedPigsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedSheepCount": {
+                "session": "0",
+                "total": "22"
+            },
+            "breedWaterBuffaloCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "carDistance": {
+                "session": "0",
+                "total": "17"
+            },
+            "cultivatedHectares": {
+                "session": "0",
+                "total": "149"
+            },
+            "cultivatedTime": {
+                "session": "0",
+                "total": "756"
+            },
+            "cutTreeCount": {
+                "session": "0",
+                "total": "154"
+            },
+            "expenses": {
+                "session": "0",
+                "total": "0"
+            },
+            "fuelUsage": {
+                "session": "0",
+                "total": "13237"
+            },
+            "harvestedGrapes": {
+                "session": "0",
+                "total": "0"
+            },
+            "harvestedOlives": {
+                "session": "0",
+                "total": "0"
+            },
+            "horseDistance": {
+                "session": "0",
+                "total": "0"
+            },
+            "horseJumpCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "missionCount": {
+                "session": "0",
+                "total": "206"
+            },
+            "petDogCount": {
+                "session": "0",
+                "total": "3"
+            },
+            "plantedTreeCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "playTime": {
+                "session": "0",
+                "total": "13241"
+            },
+            "plowedHectares": {
+                "session": "0",
+                "total": "200"
+            },
+            "plowedTime": {
+                "session": "0",
+                "total": "2065"
+            },
+            "repaintVehicleCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "repairVehicleCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "revenue": {
+                "session": "0",
+                "total": "0"
+            },
+            "seedUsage": {
+                "session": "0",
+                "total": "25761"
+            },
+            "soldCottonBales": {
+                "session": "0",
+                "total": "1"
+            },
+            "sownHectares": {
+                "session": "0",
+                "total": "163"
+            },
+            "sownTime": {
+                "session": "0",
+                "total": "663"
+            },
+            "sprayUsage": {
+                "session": "0",
+                "total": "209180"
+            },
+            "sprayedHectares": {
+                "session": "0",
+                "total": "444"
+            },
+            "sprayedTime": {
+                "session": "0",
+                "total": "729"
+            },
+            "storedBales": {
+                "session": "0",
+                "total": "0"
+            },
+            "storedPallets": {
+                "session": "0",
+                "total": "0"
+            },
+            "threshedHectares": {
+                "session": "0",
+                "total": "109"
+            },
+            "threshedTime": {
+                "session": "0",
+                "total": "412"
+            },
+            "tractorDistance": {
+                "session": "0",
+                "total": "771"
+            },
+            "traveledDistance": {
+                "session": "0",
+                "total": "850"
+            },
+            "truckDistance": {
+                "session": "0",
+                "total": "63"
+            },
+            "weededHectares": {
+                "session": "0",
+                "total": "0"
+            },
+            "weededTime": {
+                "session": "0",
+                "total": "0"
+            },
+            "windTurbineCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "woodTonsSold": {
+                "session": "0",
+                "total": "0"
+            },
+            "workedHectares": {
+                "session": "0",
+                "total": "1354"
+            },
+            "workedTime": {
+                "session": "0",
+                "total": "5014"
+            },
+            "workersHired": {
+                "session": "0",
+                "total": "0"
+            },
+            "wrappedBales": {
+                "session": "0",
+                "total": "0"
+            }
+        },
+        "finances": {
+            "constructionCost": "0",
+            "fieldPurchase": "0",
+            "fieldSelling": "0",
+            "harvestIncome": "0",
+            "incomeBga": "0",
+            "loanInterest": "0",
+            "missionIncome": "0",
+            "newAnimalsCost": "0",
+            "newHandtoolsCost": "0",
+            "newVehiclesCost": "0",
+            "other": "0",
+            "productionCosts": "-330.892792",
+            "propertyIncome": "1668",
+            "propertyMaintenance": "0",
+            "purchaseBales": "0",
+            "purchaseFertilizer": "0",
+            "purchaseFuel": "0",
+            "purchasePallets": "0",
+            "purchaseSaplings": "0",
+            "purchaseSeeds": "0",
+            "purchaseWater": "-69.740005",
+            "soldAnimals": "0",
+            "soldBales": "0",
+            "soldBuildings": "0",
+            "soldHandtools": "0",
+            "soldMilk": "0",
+            "soldProducts": "12098.911133",
+            "soldVehicles": "0",
+            "soldWood": "0",
+            "soldWool": "0",
+            "vehicleLeasingCost": "0",
+            "vehicleRunningCost": "0",
+            "wagePayment": "0"
+        },
+        "financesHistory": {
+            "month_1": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-652.304382",
+                "propertyIncome": "2224",
+                "propertyMaintenance": "-11511.660156",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-134.791672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "55225.621094",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_2": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-658.118896",
+                "propertyIncome": "1668",
+                "propertyMaintenance": "-11554.480469",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-142.913330",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "56506.570312",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_3": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-652.270020",
+                "propertyIncome": "1876.500000",
+                "propertyMaintenance": "-11597.299805",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-140.041672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "57144.671875",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_4": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-630.490845",
+                "propertyIncome": "2085",
+                "propertyMaintenance": "-11640.120117",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-142.666672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "24159.726562",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            }
+        }
+    },
+    "2": {
+        "farmMoneyDirtyFlag": "1",
+        "recieveUpdates": "true",
+        "isClient": "true",
+        "lastMoneySent": "100000",
+        "nextDirtyFlag": "2",
+        "isServer": "true",
+        "ownerFarmId": "0",
+        "farmId": "6",
+        "lastMoneyPublished": "100000",
+        "color": "4",
+        "id": "843",
+        "loanMax": "1690000",
+        "showInFarmScreen": "true",
+        "loan": "40000",
+        "isSpectator": "false",
+        "name": "Hof ohne Name",
+        "dirtyMask": "0",
+        "money": "189195.937500",
+        "isRegistered": "true",
+        "players": {
+            "id_1": {
+                "isFarmManager": "true",
+                "uniqueUserId": "R2UTqJnQrQ+2CKnsKOcqEhTfsvgpNP3inc6LO5G1BBE=",
+                "lastNickname": "onewithoutname",
+                "timeLastConnected": "2025/01/06 17:32"
+            }
+        },
+        "statistics": {
+            "heroStatsLoaded": "false",
+            "updatePlayTime": "true",
+            "financesHistoryVersionCounterLocal": "0",
+            "nextHeroAccumUpdate": "0",
+            "financesVersionCounter": "0",
+            "moneyEarnedHeroAccum": "0",
+            "financesHistoryVersionCounter": "0",
+            "baleCount": {
+                "session": "0",
+                "total": "413"
+            },
+            "breedChickenCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedCowsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedGoatsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedHorsesCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedPigsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedSheepCount": {
+                "session": "0",
+                "total": "22"
+            },
+            "breedWaterBuffaloCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "carDistance": {
+                "session": "0",
+                "total": "17"
+            },
+            "cultivatedHectares": {
+                "session": "0",
+                "total": "149"
+            },
+            "cultivatedTime": {
+                "session": "0",
+                "total": "756"
+            },
+            "cutTreeCount": {
+                "session": "0",
+                "total": "154"
+            },
+            "expenses": {
+                "session": "0",
+                "total": "0"
+            },
+            "fuelUsage": {
+                "session": "0",
+                "total": "13237"
+            },
+            "harvestedGrapes": {
+                "session": "0",
+                "total": "0"
+            },
+            "harvestedOlives": {
+                "session": "0",
+                "total": "0"
+            },
+            "horseDistance": {
+                "session": "0",
+                "total": "0"
+            },
+            "horseJumpCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "missionCount": {
+                "session": "0",
+                "total": "206"
+            },
+            "petDogCount": {
+                "session": "0",
+                "total": "3"
+            },
+            "plantedTreeCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "playTime": {
+                "session": "0",
+                "total": "13241"
+            },
+            "plowedHectares": {
+                "session": "0",
+                "total": "200"
+            },
+            "plowedTime": {
+                "session": "0",
+                "total": "2065"
+            },
+            "repaintVehicleCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "repairVehicleCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "revenue": {
+                "session": "0",
+                "total": "0"
+            },
+            "seedUsage": {
+                "session": "0",
+                "total": "25761"
+            },
+            "soldCottonBales": {
+                "session": "0",
+                "total": "1"
+            },
+            "sownHectares": {
+                "session": "0",
+                "total": "163"
+            },
+            "sownTime": {
+                "session": "0",
+                "total": "663"
+            },
+            "sprayUsage": {
+                "session": "0",
+                "total": "209180"
+            },
+            "sprayedHectares": {
+                "session": "0",
+                "total": "444"
+            },
+            "sprayedTime": {
+                "session": "0",
+                "total": "729"
+            },
+            "storedBales": {
+                "session": "0",
+                "total": "0"
+            },
+            "storedPallets": {
+                "session": "0",
+                "total": "0"
+            },
+            "threshedHectares": {
+                "session": "0",
+                "total": "109"
+            },
+            "threshedTime": {
+                "session": "0",
+                "total": "412"
+            },
+            "tractorDistance": {
+                "session": "0",
+                "total": "771"
+            },
+            "traveledDistance": {
+                "session": "0",
+                "total": "850"
+            },
+            "truckDistance": {
+                "session": "0",
+                "total": "63"
+            },
+            "weededHectares": {
+                "session": "0",
+                "total": "0"
+            },
+            "weededTime": {
+                "session": "0",
+                "total": "0"
+            },
+            "windTurbineCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "woodTonsSold": {
+                "session": "0",
+                "total": "0"
+            },
+            "workedHectares": {
+                "session": "0",
+                "total": "1354"
+            },
+            "workedTime": {
+                "session": "0",
+                "total": "5014"
+            },
+            "workersHired": {
+                "session": "0",
+                "total": "0"
+            },
+            "wrappedBales": {
+                "session": "0",
+                "total": "0"
+            }
+        },
+        "finances": {
+            "constructionCost": "0",
+            "fieldPurchase": "0",
+            "fieldSelling": "0",
+            "harvestIncome": "0",
+            "incomeBga": "0",
+            "loanInterest": "0",
+            "missionIncome": "0",
+            "newAnimalsCost": "0",
+            "newHandtoolsCost": "0",
+            "newVehiclesCost": "0",
+            "other": "0",
+            "productionCosts": "-330.892792",
+            "propertyIncome": "1668",
+            "propertyMaintenance": "0",
+            "purchaseBales": "0",
+            "purchaseFertilizer": "0",
+            "purchaseFuel": "0",
+            "purchasePallets": "0",
+            "purchaseSaplings": "0",
+            "purchaseSeeds": "0",
+            "purchaseWater": "-69.740005",
+            "soldAnimals": "0",
+            "soldBales": "0",
+            "soldBuildings": "0",
+            "soldHandtools": "0",
+            "soldMilk": "0",
+            "soldProducts": "12098.911133",
+            "soldVehicles": "0",
+            "soldWood": "0",
+            "soldWool": "0",
+            "vehicleLeasingCost": "0",
+            "vehicleRunningCost": "0",
+            "wagePayment": "0"
+        },
+        "financesHistory": {
+            "month_1": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-652.304382",
+                "propertyIncome": "2224",
+                "propertyMaintenance": "-11511.660156",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-134.791672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "55225.621094",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_2": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-658.118896",
+                "propertyIncome": "1668",
+                "propertyMaintenance": "-11554.480469",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-142.913330",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "56506.570312",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_3": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-652.270020",
+                "propertyIncome": "1876.500000",
+                "propertyMaintenance": "-11597.299805",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-140.041672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "57144.671875",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_4": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-630.490845",
+                "propertyIncome": "2085",
+                "propertyMaintenance": "-11640.120117",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-142.666672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "24159.726562",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            }
+        }
+    },
+    "3": {
+        "farmMoneyDirtyFlag": "1",
+        "recieveUpdates": "true",
+        "isClient": "true",
+        "lastMoneySent": "100000",
+        "nextDirtyFlag": "2",
+        "isServer": "true",
+        "ownerFarmId": "0",
+        "farmId": "6",
+        "lastMoneyPublished": "100000",
+        "color": "4",
+        "id": "843",
+        "loanMax": "1690000",
+        "showInFarmScreen": "true",
+        "loan": "40000",
+        "isSpectator": "false",
+        "name": "Hof ohne Name",
+        "dirtyMask": "0",
+        "money": "189195.937500",
+        "isRegistered": "true",
+        "players": {
+            "id_1": {
+                "isFarmManager": "true",
+                "uniqueUserId": "R2UTqJnQrQ+2CKnsKOcqEhTfsvgpNP3inc6LO5G1BBE=",
+                "lastNickname": "onewithoutname",
+                "timeLastConnected": "2025/01/06 17:32"
+            }
+        },
+        "statistics": {
+            "heroStatsLoaded": "false",
+            "updatePlayTime": "true",
+            "financesHistoryVersionCounterLocal": "0",
+            "nextHeroAccumUpdate": "0",
+            "financesVersionCounter": "0",
+            "moneyEarnedHeroAccum": "0",
+            "financesHistoryVersionCounter": "0",
+            "baleCount": {
+                "session": "0",
+                "total": "413"
+            },
+            "breedChickenCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedCowsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedGoatsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedHorsesCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedPigsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedSheepCount": {
+                "session": "0",
+                "total": "22"
+            },
+            "breedWaterBuffaloCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "carDistance": {
+                "session": "0",
+                "total": "17"
+            },
+            "cultivatedHectares": {
+                "session": "0",
+                "total": "149"
+            },
+            "cultivatedTime": {
+                "session": "0",
+                "total": "756"
+            },
+            "cutTreeCount": {
+                "session": "0",
+                "total": "154"
+            },
+            "expenses": {
+                "session": "0",
+                "total": "0"
+            },
+            "fuelUsage": {
+                "session": "0",
+                "total": "13237"
+            },
+            "harvestedGrapes": {
+                "session": "0",
+                "total": "0"
+            },
+            "harvestedOlives": {
+                "session": "0",
+                "total": "0"
+            },
+            "horseDistance": {
+                "session": "0",
+                "total": "0"
+            },
+            "horseJumpCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "missionCount": {
+                "session": "0",
+                "total": "206"
+            },
+            "petDogCount": {
+                "session": "0",
+                "total": "3"
+            },
+            "plantedTreeCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "playTime": {
+                "session": "0",
+                "total": "13241"
+            },
+            "plowedHectares": {
+                "session": "0",
+                "total": "200"
+            },
+            "plowedTime": {
+                "session": "0",
+                "total": "2065"
+            },
+            "repaintVehicleCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "repairVehicleCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "revenue": {
+                "session": "0",
+                "total": "0"
+            },
+            "seedUsage": {
+                "session": "0",
+                "total": "25761"
+            },
+            "soldCottonBales": {
+                "session": "0",
+                "total": "1"
+            },
+            "sownHectares": {
+                "session": "0",
+                "total": "163"
+            },
+            "sownTime": {
+                "session": "0",
+                "total": "663"
+            },
+            "sprayUsage": {
+                "session": "0",
+                "total": "209180"
+            },
+            "sprayedHectares": {
+                "session": "0",
+                "total": "444"
+            },
+            "sprayedTime": {
+                "session": "0",
+                "total": "729"
+            },
+            "storedBales": {
+                "session": "0",
+                "total": "0"
+            },
+            "storedPallets": {
+                "session": "0",
+                "total": "0"
+            },
+            "threshedHectares": {
+                "session": "0",
+                "total": "109"
+            },
+            "threshedTime": {
+                "session": "0",
+                "total": "412"
+            },
+            "tractorDistance": {
+                "session": "0",
+                "total": "771"
+            },
+            "traveledDistance": {
+                "session": "0",
+                "total": "850"
+            },
+            "truckDistance": {
+                "session": "0",
+                "total": "63"
+            },
+            "weededHectares": {
+                "session": "0",
+                "total": "0"
+            },
+            "weededTime": {
+                "session": "0",
+                "total": "0"
+            },
+            "windTurbineCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "woodTonsSold": {
+                "session": "0",
+                "total": "0"
+            },
+            "workedHectares": {
+                "session": "0",
+                "total": "1354"
+            },
+            "workedTime": {
+                "session": "0",
+                "total": "5014"
+            },
+            "workersHired": {
+                "session": "0",
+                "total": "0"
+            },
+            "wrappedBales": {
+                "session": "0",
+                "total": "0"
+            }
+        },
+        "finances": {
+            "constructionCost": "0",
+            "fieldPurchase": "0",
+            "fieldSelling": "0",
+            "harvestIncome": "0",
+            "incomeBga": "0",
+            "loanInterest": "0",
+            "missionIncome": "0",
+            "newAnimalsCost": "0",
+            "newHandtoolsCost": "0",
+            "newVehiclesCost": "0",
+            "other": "0",
+            "productionCosts": "-330.892792",
+            "propertyIncome": "1668",
+            "propertyMaintenance": "0",
+            "purchaseBales": "0",
+            "purchaseFertilizer": "0",
+            "purchaseFuel": "0",
+            "purchasePallets": "0",
+            "purchaseSaplings": "0",
+            "purchaseSeeds": "0",
+            "purchaseWater": "-69.740005",
+            "soldAnimals": "0",
+            "soldBales": "0",
+            "soldBuildings": "0",
+            "soldHandtools": "0",
+            "soldMilk": "0",
+            "soldProducts": "12098.911133",
+            "soldVehicles": "0",
+            "soldWood": "0",
+            "soldWool": "0",
+            "vehicleLeasingCost": "0",
+            "vehicleRunningCost": "0",
+            "wagePayment": "0"
+        },
+        "financesHistory": {
+            "month_1": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-652.304382",
+                "propertyIncome": "2224",
+                "propertyMaintenance": "-11511.660156",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-134.791672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "55225.621094",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_2": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-658.118896",
+                "propertyIncome": "1668",
+                "propertyMaintenance": "-11554.480469",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-142.913330",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "56506.570312",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_3": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-652.270020",
+                "propertyIncome": "1876.500000",
+                "propertyMaintenance": "-11597.299805",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-140.041672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "57144.671875",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_4": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-630.490845",
+                "propertyIncome": "2085",
+                "propertyMaintenance": "-11640.120117",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-142.666672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "24159.726562",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            }
+        }
+    },
+    "4": {
+        "farmMoneyDirtyFlag": "1",
+        "recieveUpdates": "true",
+        "isClient": "true",
+        "lastMoneySent": "100000",
+        "nextDirtyFlag": "2",
+        "isServer": "true",
+        "ownerFarmId": "0",
+        "farmId": "6",
+        "lastMoneyPublished": "100000",
+        "color": "4",
+        "id": "843",
+        "loanMax": "1690000",
+        "showInFarmScreen": "true",
+        "loan": "40000",
+        "isSpectator": "false",
+        "name": "Hof ohne Name",
+        "dirtyMask": "0",
+        "money": "189195.937500",
+        "isRegistered": "true",
+        "players": {
+            "id_1": {
+                "isFarmManager": "true",
+                "uniqueUserId": "R2UTqJnQrQ+2CKnsKOcqEhTfsvgpNP3inc6LO5G1BBE=",
+                "lastNickname": "onewithoutname",
+                "timeLastConnected": "2025/01/06 17:32"
+            }
+        },
+        "statistics": {
+            "heroStatsLoaded": "false",
+            "updatePlayTime": "true",
+            "financesHistoryVersionCounterLocal": "0",
+            "nextHeroAccumUpdate": "0",
+            "financesVersionCounter": "0",
+            "moneyEarnedHeroAccum": "0",
+            "financesHistoryVersionCounter": "0",
+            "baleCount": {
+                "session": "0",
+                "total": "413"
+            },
+            "breedChickenCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedCowsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedGoatsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedHorsesCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedPigsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedSheepCount": {
+                "session": "0",
+                "total": "22"
+            },
+            "breedWaterBuffaloCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "carDistance": {
+                "session": "0",
+                "total": "17"
+            },
+            "cultivatedHectares": {
+                "session": "0",
+                "total": "149"
+            },
+            "cultivatedTime": {
+                "session": "0",
+                "total": "756"
+            },
+            "cutTreeCount": {
+                "session": "0",
+                "total": "154"
+            },
+            "expenses": {
+                "session": "0",
+                "total": "0"
+            },
+            "fuelUsage": {
+                "session": "0",
+                "total": "13237"
+            },
+            "harvestedGrapes": {
+                "session": "0",
+                "total": "0"
+            },
+            "harvestedOlives": {
+                "session": "0",
+                "total": "0"
+            },
+            "horseDistance": {
+                "session": "0",
+                "total": "0"
+            },
+            "horseJumpCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "missionCount": {
+                "session": "0",
+                "total": "206"
+            },
+            "petDogCount": {
+                "session": "0",
+                "total": "3"
+            },
+            "plantedTreeCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "playTime": {
+                "session": "0",
+                "total": "13241"
+            },
+            "plowedHectares": {
+                "session": "0",
+                "total": "200"
+            },
+            "plowedTime": {
+                "session": "0",
+                "total": "2065"
+            },
+            "repaintVehicleCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "repairVehicleCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "revenue": {
+                "session": "0",
+                "total": "0"
+            },
+            "seedUsage": {
+                "session": "0",
+                "total": "25761"
+            },
+            "soldCottonBales": {
+                "session": "0",
+                "total": "1"
+            },
+            "sownHectares": {
+                "session": "0",
+                "total": "163"
+            },
+            "sownTime": {
+                "session": "0",
+                "total": "663"
+            },
+            "sprayUsage": {
+                "session": "0",
+                "total": "209180"
+            },
+            "sprayedHectares": {
+                "session": "0",
+                "total": "444"
+            },
+            "sprayedTime": {
+                "session": "0",
+                "total": "729"
+            },
+            "storedBales": {
+                "session": "0",
+                "total": "0"
+            },
+            "storedPallets": {
+                "session": "0",
+                "total": "0"
+            },
+            "threshedHectares": {
+                "session": "0",
+                "total": "109"
+            },
+            "threshedTime": {
+                "session": "0",
+                "total": "412"
+            },
+            "tractorDistance": {
+                "session": "0",
+                "total": "771"
+            },
+            "traveledDistance": {
+                "session": "0",
+                "total": "850"
+            },
+            "truckDistance": {
+                "session": "0",
+                "total": "63"
+            },
+            "weededHectares": {
+                "session": "0",
+                "total": "0"
+            },
+            "weededTime": {
+                "session": "0",
+                "total": "0"
+            },
+            "windTurbineCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "woodTonsSold": {
+                "session": "0",
+                "total": "0"
+            },
+            "workedHectares": {
+                "session": "0",
+                "total": "1354"
+            },
+            "workedTime": {
+                "session": "0",
+                "total": "5014"
+            },
+            "workersHired": {
+                "session": "0",
+                "total": "0"
+            },
+            "wrappedBales": {
+                "session": "0",
+                "total": "0"
+            }
+        },
+        "finances": {
+            "constructionCost": "0",
+            "fieldPurchase": "0",
+            "fieldSelling": "0",
+            "harvestIncome": "0",
+            "incomeBga": "0",
+            "loanInterest": "0",
+            "missionIncome": "0",
+            "newAnimalsCost": "0",
+            "newHandtoolsCost": "0",
+            "newVehiclesCost": "0",
+            "other": "0",
+            "productionCosts": "-330.892792",
+            "propertyIncome": "1668",
+            "propertyMaintenance": "0",
+            "purchaseBales": "0",
+            "purchaseFertilizer": "0",
+            "purchaseFuel": "0",
+            "purchasePallets": "0",
+            "purchaseSaplings": "0",
+            "purchaseSeeds": "0",
+            "purchaseWater": "-69.740005",
+            "soldAnimals": "0",
+            "soldBales": "0",
+            "soldBuildings": "0",
+            "soldHandtools": "0",
+            "soldMilk": "0",
+            "soldProducts": "12098.911133",
+            "soldVehicles": "0",
+            "soldWood": "0",
+            "soldWool": "0",
+            "vehicleLeasingCost": "0",
+            "vehicleRunningCost": "0",
+            "wagePayment": "0"
+        },
+        "financesHistory": {
+            "month_1": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-652.304382",
+                "propertyIncome": "2224",
+                "propertyMaintenance": "-11511.660156",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-134.791672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "55225.621094",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_2": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-658.118896",
+                "propertyIncome": "1668",
+                "propertyMaintenance": "-11554.480469",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-142.913330",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "56506.570312",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_3": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-652.270020",
+                "propertyIncome": "1876.500000",
+                "propertyMaintenance": "-11597.299805",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-140.041672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "57144.671875",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_4": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-630.490845",
+                "propertyIncome": "2085",
+                "propertyMaintenance": "-11640.120117",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-142.666672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "24159.726562",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            }
+        }
+    },
+    "5": {
+        "farmMoneyDirtyFlag": "1",
+        "recieveUpdates": "true",
+        "isClient": "true",
+        "lastMoneySent": "100000",
+        "nextDirtyFlag": "2",
+        "isServer": "true",
+        "ownerFarmId": "0",
+        "farmId": "6",
+        "lastMoneyPublished": "100000",
+        "color": "4",
+        "id": "843",
+        "loanMax": "1690000",
+        "showInFarmScreen": "true",
+        "loan": "40000",
+        "isSpectator": "false",
+        "name": "Hof ohne Name",
+        "dirtyMask": "0",
+        "money": "189195.937500",
+        "isRegistered": "true",
+        "players": {
+            "id_1": {
+                "isFarmManager": "true",
+                "uniqueUserId": "R2UTqJnQrQ+2CKnsKOcqEhTfsvgpNP3inc6LO5G1BBE=",
+                "lastNickname": "onewithoutname",
+                "timeLastConnected": "2025/01/06 17:32"
+            }
+        },
+        "statistics": {
+            "heroStatsLoaded": "false",
+            "updatePlayTime": "true",
+            "financesHistoryVersionCounterLocal": "0",
+            "nextHeroAccumUpdate": "0",
+            "financesVersionCounter": "0",
+            "moneyEarnedHeroAccum": "0",
+            "financesHistoryVersionCounter": "0",
+            "baleCount": {
+                "session": "0",
+                "total": "413"
+            },
+            "breedChickenCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedCowsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedGoatsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedHorsesCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedPigsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedSheepCount": {
+                "session": "0",
+                "total": "22"
+            },
+            "breedWaterBuffaloCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "carDistance": {
+                "session": "0",
+                "total": "17"
+            },
+            "cultivatedHectares": {
+                "session": "0",
+                "total": "149"
+            },
+            "cultivatedTime": {
+                "session": "0",
+                "total": "756"
+            },
+            "cutTreeCount": {
+                "session": "0",
+                "total": "154"
+            },
+            "expenses": {
+                "session": "0",
+                "total": "0"
+            },
+            "fuelUsage": {
+                "session": "0",
+                "total": "13237"
+            },
+            "harvestedGrapes": {
+                "session": "0",
+                "total": "0"
+            },
+            "harvestedOlives": {
+                "session": "0",
+                "total": "0"
+            },
+            "horseDistance": {
+                "session": "0",
+                "total": "0"
+            },
+            "horseJumpCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "missionCount": {
+                "session": "0",
+                "total": "206"
+            },
+            "petDogCount": {
+                "session": "0",
+                "total": "3"
+            },
+            "plantedTreeCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "playTime": {
+                "session": "0",
+                "total": "13241"
+            },
+            "plowedHectares": {
+                "session": "0",
+                "total": "200"
+            },
+            "plowedTime": {
+                "session": "0",
+                "total": "2065"
+            },
+            "repaintVehicleCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "repairVehicleCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "revenue": {
+                "session": "0",
+                "total": "0"
+            },
+            "seedUsage": {
+                "session": "0",
+                "total": "25761"
+            },
+            "soldCottonBales": {
+                "session": "0",
+                "total": "1"
+            },
+            "sownHectares": {
+                "session": "0",
+                "total": "163"
+            },
+            "sownTime": {
+                "session": "0",
+                "total": "663"
+            },
+            "sprayUsage": {
+                "session": "0",
+                "total": "209180"
+            },
+            "sprayedHectares": {
+                "session": "0",
+                "total": "444"
+            },
+            "sprayedTime": {
+                "session": "0",
+                "total": "729"
+            },
+            "storedBales": {
+                "session": "0",
+                "total": "0"
+            },
+            "storedPallets": {
+                "session": "0",
+                "total": "0"
+            },
+            "threshedHectares": {
+                "session": "0",
+                "total": "109"
+            },
+            "threshedTime": {
+                "session": "0",
+                "total": "412"
+            },
+            "tractorDistance": {
+                "session": "0",
+                "total": "771"
+            },
+            "traveledDistance": {
+                "session": "0",
+                "total": "850"
+            },
+            "truckDistance": {
+                "session": "0",
+                "total": "63"
+            },
+            "weededHectares": {
+                "session": "0",
+                "total": "0"
+            },
+            "weededTime": {
+                "session": "0",
+                "total": "0"
+            },
+            "windTurbineCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "woodTonsSold": {
+                "session": "0",
+                "total": "0"
+            },
+            "workedHectares": {
+                "session": "0",
+                "total": "1354"
+            },
+            "workedTime": {
+                "session": "0",
+                "total": "5014"
+            },
+            "workersHired": {
+                "session": "0",
+                "total": "0"
+            },
+            "wrappedBales": {
+                "session": "0",
+                "total": "0"
+            }
+        },
+        "finances": {
+            "constructionCost": "0",
+            "fieldPurchase": "0",
+            "fieldSelling": "0",
+            "harvestIncome": "0",
+            "incomeBga": "0",
+            "loanInterest": "0",
+            "missionIncome": "0",
+            "newAnimalsCost": "0",
+            "newHandtoolsCost": "0",
+            "newVehiclesCost": "0",
+            "other": "0",
+            "productionCosts": "-330.892792",
+            "propertyIncome": "1668",
+            "propertyMaintenance": "0",
+            "purchaseBales": "0",
+            "purchaseFertilizer": "0",
+            "purchaseFuel": "0",
+            "purchasePallets": "0",
+            "purchaseSaplings": "0",
+            "purchaseSeeds": "0",
+            "purchaseWater": "-69.740005",
+            "soldAnimals": "0",
+            "soldBales": "0",
+            "soldBuildings": "0",
+            "soldHandtools": "0",
+            "soldMilk": "0",
+            "soldProducts": "12098.911133",
+            "soldVehicles": "0",
+            "soldWood": "0",
+            "soldWool": "0",
+            "vehicleLeasingCost": "0",
+            "vehicleRunningCost": "0",
+            "wagePayment": "0"
+        },
+        "financesHistory": {
+            "month_1": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-652.304382",
+                "propertyIncome": "2224",
+                "propertyMaintenance": "-11511.660156",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-134.791672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "55225.621094",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_2": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-658.118896",
+                "propertyIncome": "1668",
+                "propertyMaintenance": "-11554.480469",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-142.913330",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "56506.570312",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_3": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-652.270020",
+                "propertyIncome": "1876.500000",
+                "propertyMaintenance": "-11597.299805",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-140.041672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "57144.671875",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_4": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-630.490845",
+                "propertyIncome": "2085",
+                "propertyMaintenance": "-11640.120117",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-142.666672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "24159.726562",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            }
+        }
+    },
+    "6": {
+        "farmMoneyDirtyFlag": "1",
+        "recieveUpdates": "true",
+        "isClient": "true",
+        "lastMoneySent": "100000",
+        "nextDirtyFlag": "2",
+        "isServer": "true",
+        "ownerFarmId": "0",
+        "farmId": "6",
+        "lastMoneyPublished": "100000",
+        "color": "4",
+        "id": "843",
+        "loanMax": "1690000",
+        "showInFarmScreen": "true",
+        "loan": "40000",
+        "isSpectator": "false",
+        "name": "Hof ohne Name",
+        "dirtyMask": "0",
+        "money": "189195.937500",
+        "isRegistered": "true",
+        "players": {
+            "id_1": {
+                "isFarmManager": "true",
+                "uniqueUserId": "R2UTqJnQrQ+2CKnsKOcqEhTfsvgpNP3inc6LO5G1BBE=",
+                "lastNickname": "onewithoutname",
+                "timeLastConnected": "2025/01/06 17:32"
+            }
+        },
+        "statistics": {
+            "heroStatsLoaded": "false",
+            "updatePlayTime": "true",
+            "financesHistoryVersionCounterLocal": "0",
+            "nextHeroAccumUpdate": "0",
+            "financesVersionCounter": "0",
+            "moneyEarnedHeroAccum": "0",
+            "financesHistoryVersionCounter": "0",
+            "baleCount": {
+                "session": "0",
+                "total": "413"
+            },
+            "breedChickenCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedCowsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedGoatsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedHorsesCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedPigsCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "breedSheepCount": {
+                "session": "0",
+                "total": "22"
+            },
+            "breedWaterBuffaloCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "carDistance": {
+                "session": "0",
+                "total": "17"
+            },
+            "cultivatedHectares": {
+                "session": "0",
+                "total": "149"
+            },
+            "cultivatedTime": {
+                "session": "0",
+                "total": "756"
+            },
+            "cutTreeCount": {
+                "session": "0",
+                "total": "154"
+            },
+            "expenses": {
+                "session": "0",
+                "total": "0"
+            },
+            "fuelUsage": {
+                "session": "0",
+                "total": "13237"
+            },
+            "harvestedGrapes": {
+                "session": "0",
+                "total": "0"
+            },
+            "harvestedOlives": {
+                "session": "0",
+                "total": "0"
+            },
+            "horseDistance": {
+                "session": "0",
+                "total": "0"
+            },
+            "horseJumpCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "missionCount": {
+                "session": "0",
+                "total": "206"
+            },
+            "petDogCount": {
+                "session": "0",
+                "total": "3"
+            },
+            "plantedTreeCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "playTime": {
+                "session": "0",
+                "total": "13241"
+            },
+            "plowedHectares": {
+                "session": "0",
+                "total": "200"
+            },
+            "plowedTime": {
+                "session": "0",
+                "total": "2065"
+            },
+            "repaintVehicleCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "repairVehicleCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "revenue": {
+                "session": "0",
+                "total": "0"
+            },
+            "seedUsage": {
+                "session": "0",
+                "total": "25761"
+            },
+            "soldCottonBales": {
+                "session": "0",
+                "total": "1"
+            },
+            "sownHectares": {
+                "session": "0",
+                "total": "163"
+            },
+            "sownTime": {
+                "session": "0",
+                "total": "663"
+            },
+            "sprayUsage": {
+                "session": "0",
+                "total": "209180"
+            },
+            "sprayedHectares": {
+                "session": "0",
+                "total": "444"
+            },
+            "sprayedTime": {
+                "session": "0",
+                "total": "729"
+            },
+            "storedBales": {
+                "session": "0",
+                "total": "0"
+            },
+            "storedPallets": {
+                "session": "0",
+                "total": "0"
+            },
+            "threshedHectares": {
+                "session": "0",
+                "total": "109"
+            },
+            "threshedTime": {
+                "session": "0",
+                "total": "412"
+            },
+            "tractorDistance": {
+                "session": "0",
+                "total": "771"
+            },
+            "traveledDistance": {
+                "session": "0",
+                "total": "850"
+            },
+            "truckDistance": {
+                "session": "0",
+                "total": "63"
+            },
+            "weededHectares": {
+                "session": "0",
+                "total": "0"
+            },
+            "weededTime": {
+                "session": "0",
+                "total": "0"
+            },
+            "windTurbineCount": {
+                "session": "0",
+                "total": "0"
+            },
+            "woodTonsSold": {
+                "session": "0",
+                "total": "0"
+            },
+            "workedHectares": {
+                "session": "0",
+                "total": "1354"
+            },
+            "workedTime": {
+                "session": "0",
+                "total": "5014"
+            },
+            "workersHired": {
+                "session": "0",
+                "total": "0"
+            },
+            "wrappedBales": {
+                "session": "0",
+                "total": "0"
+            }
+        },
+        "finances": {
+            "constructionCost": "0",
+            "fieldPurchase": "0",
+            "fieldSelling": "0",
+            "harvestIncome": "0",
+            "incomeBga": "0",
+            "loanInterest": "0",
+            "missionIncome": "0",
+            "newAnimalsCost": "0",
+            "newHandtoolsCost": "0",
+            "newVehiclesCost": "0",
+            "other": "0",
+            "productionCosts": "-330.892792",
+            "propertyIncome": "1668",
+            "propertyMaintenance": "0",
+            "purchaseBales": "0",
+            "purchaseFertilizer": "0",
+            "purchaseFuel": "0",
+            "purchasePallets": "0",
+            "purchaseSaplings": "0",
+            "purchaseSeeds": "0",
+            "purchaseWater": "-69.740005",
+            "soldAnimals": "0",
+            "soldBales": "0",
+            "soldBuildings": "0",
+            "soldHandtools": "0",
+            "soldMilk": "0",
+            "soldProducts": "12098.911133",
+            "soldVehicles": "0",
+            "soldWood": "0",
+            "soldWool": "0",
+            "vehicleLeasingCost": "0",
+            "vehicleRunningCost": "0",
+            "wagePayment": "0"
+        },
+        "financesHistory": {
+            "month_1": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-652.304382",
+                "propertyIncome": "2224",
+                "propertyMaintenance": "-11511.660156",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-134.791672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "55225.621094",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_2": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-658.118896",
+                "propertyIncome": "1668",
+                "propertyMaintenance": "-11554.480469",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-142.913330",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "56506.570312",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_3": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-652.270020",
+                "propertyIncome": "1876.500000",
+                "propertyMaintenance": "-11597.299805",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-140.041672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "57144.671875",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            },
+            "month_4": {
+                "constructionCost": "0",
+                "fieldPurchase": "0",
+                "fieldSelling": "0",
+                "harvestIncome": "0",
+                "incomeBga": "0",
+                "loanInterest": "-133",
+                "missionIncome": "0",
+                "newAnimalsCost": "0",
+                "newHandtoolsCost": "0",
+                "newVehiclesCost": "0",
+                "other": "0",
+                "productionCosts": "-630.490845",
+                "propertyIncome": "2085",
+                "propertyMaintenance": "-11640.120117",
+                "purchaseBales": "0",
+                "purchaseFertilizer": "0",
+                "purchaseFuel": "0",
+                "purchasePallets": "0",
+                "purchaseSaplings": "0",
+                "purchaseSeeds": "0",
+                "purchaseWater": "-142.666672",
+                "soldAnimals": "0",
+                "soldBales": "0",
+                "soldBuildings": "0",
+                "soldHandtools": "0",
+                "soldMilk": "0",
+                "soldProducts": "24159.726562",
+                "soldVehicles": "0",
+                "soldWood": "0",
+                "soldWool": "0",
+                "vehicleLeasingCost": "0",
+                "vehicleRunningCost": "0",
+                "wagePayment": "0"
+            }
+        }
+    }
+}
