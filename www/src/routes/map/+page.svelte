@@ -121,10 +121,10 @@
 </script>
 
 <div class="row vhc-100">
-	<div class="col-9 ps-0 pe-0 border-end">
+	<div class="col-12 col-md-12 col-lg-9 ps-0 pe-0 border-end">
 		<div id="map" class="bg-body-tertiary w-100 h-100"></div>
 	</div>
-	<div class="col-3 bg-body-tertiary">
+	<div class="col-12 col-lg-3 bg-body-tertiary">
 		<div class="d-flex flex-column flex-shrink-0 p-2 bg-body-tertiary text-bg-dark">
 			<span class="fs-3">Details</span>
 			<hr />
