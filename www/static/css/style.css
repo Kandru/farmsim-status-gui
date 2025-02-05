@@ -8,3 +8,10 @@ body {
 .vhc-100 {
     height: calc(100vh - 57px);
 }
+
+@media (min-width: 768px) {
+    .scrollable-list {
+        max-height: 300px;
+        overflow-y: auto;
+    }
+}
