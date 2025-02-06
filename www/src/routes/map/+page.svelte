@@ -34,28 +34,36 @@
 		// get farmland data
 		response = await fetch('/data/farmlands.json');
 		farmlandsData = await response.json();
-
-		if (
-			serverData.map &&
-			serverData.map.name &&
-			serverData.map.size &&
-			serverData.map.width &&
-			serverData.map.height
-		) {
+		if (serverData.map && serverData.map.name && serverData.map.size) {
+			let minMapX,
+				minMapY,
+				maxMapX,
+				maxMapY = 0;
+			if (serverData.map.width && serverData.map.height) {
+				minMapX = -serverData.map.width;
+				minMapY = -serverData.map.height;
+				maxMapX = serverData.map.width;
+				maxMapY = serverData.map.height;
+			} else {
+				minMapX = -(serverData.map.size / 2);
+				minMapY = -(serverData.map.size / 2);
+				maxMapX = serverData.map.size / 2;
+				maxMapY = serverData.map.size / 2;
+			}
 			map = L.map('map', {
 				crs: L.CRS.Simple,
 				minZoom: -2,
 				maxBounds: [
-					[-(serverData.map.size / 2), -(serverData.map.size / 2)],
-					[serverData.map.size / 2, serverData.map.size / 2]
+					[minMapX, minMapY],
+					[maxMapX, maxMapY]
 				]
 			}).setView([0, 0], -2);
 
 			let mapImage = L.imageOverlay(
 				'/images/maps/' + serverData.map.name.replace(/ /g, '_') + '.jpg',
 				[
-					[-(serverData.map.size / 2), -(serverData.map.size / 2)],
-					[serverData.map.size / 2, serverData.map.size / 2]
+					[minMapX, minMapY],
+					[maxMapX, maxMapY]
 				]
 			).addTo(map);
 
