@@ -7,7 +7,6 @@
 	onMount(async () => {
 		let response = await fetch('/data/server.json');
 		serverData = await response.json();
-		console.log(serverData);
 	});
 </script>
 
