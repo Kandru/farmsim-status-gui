@@ -73,8 +73,8 @@ with open(f"{config['path_website']}/server.json", 'w') as json_file:
 farms_data = {}
 # add farm attributes
 for farms in xml_dynamic.findall('farms'):
-	element = {}
 	for farm in farms:
+		element = {}
 		# add farm attributes
 		for attr in farm.attrib:
 			element[attr] = farm.get(attr)
