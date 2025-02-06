@@ -22,9 +22,12 @@ Thumbs.db
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
+# source folder
+!src/lib/
+
 # Paraglide
 src/lib/paraglide
 
-# dynamic data
 
+# dynamic data
 static/data
